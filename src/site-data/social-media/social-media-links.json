@@ -1,0 +1,35 @@
+{
+    "links": [
+        {
+            "name":"Github",
+            "iconClass":"fab fa-github",
+            "url":"https://github.com/josephmfaulkner"
+        },
+        {
+            "name":"LinkedIn",
+            "iconClass":"fab fa-linkedin",
+            "url":"https://www.linkedin.com/in/josephmfaulkner"
+        },
+        {
+            "name":"Instagram",
+            "iconClass":"fab fa-instagram",
+            "url":"https://www.instagram.com/josephmfaulkner"
+        },
+        {
+            "name":"TikTok",
+            "iconClass":"fab fa-tiktok",
+            "url":"https://www.tiktok.com/@josephmfaulkner"
+        },
+        {
+            "name":"Spotify",
+            "iconClass":"fab fa-spotify",
+            "url":"https://open.spotify.com/artist/6Vm9QxZIPlhIA82eQtW2Vx?si=yNj3qf_6T1yhl_6yqmEkWg&dl_branch=1"
+        },
+        {
+            "name":"Email",
+            "iconClass":"fas fa-envelope",
+            "url":"mailto:josephmfaulkner@gmail.com"
+        }
+    ]
+}
+
