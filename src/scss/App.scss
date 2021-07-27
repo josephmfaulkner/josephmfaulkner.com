@@ -1,0 +1,14 @@
+
+//Main Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Bootstrap Theme
+@import "./_variables";
+@import "./_bootswatch";
+
+//components
+@import "./components/navbar.scss";
+
+
+//pages
+@import "./pages/home.scss";
