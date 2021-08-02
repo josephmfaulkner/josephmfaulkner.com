@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Joseph Faulkner",
-    jobtitle: "Fullstack",
+    name: "Joseph Faulkner",
+    jobtitle: "Fullstack Developer",
     location: "Sacramento, CA",
     description: "My personal webpage",
     favicon: "none"
