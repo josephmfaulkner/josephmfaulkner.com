@@ -28,8 +28,8 @@ const SocialMediaLinks = (props) => {
             className={props.className}
         >
             {
-                data.socialMediaJson.links.map((link) => 
-                    <Nav.Item>
+                data.socialMediaJson.links.map((link, index) => 
+                    <Nav.Item key={index}>
                         <Nav.Link href={link.url} target="_blank">
                             <i title={link.name} className={link.iconClass}></i>
                         </Nav.Link>

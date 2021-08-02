@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 
 import MainTemplate from "../components/_mainTemplate";
+import HeaderSection from "./_headerSection";
 import AboutSection from "./_aboutSection";
 import ProjectSection from "./_projectSection";
 
@@ -16,7 +17,7 @@ import ProjectSection from "./_projectSection";
 const IndexPage = () => {
   return (
     <MainTemplate>
-
+      <HeaderSection />
       <AboutSection />
       <ProjectSection />
 

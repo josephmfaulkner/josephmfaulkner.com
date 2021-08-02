@@ -1,7 +1,9 @@
 {
+    "order-id": 2,
+    "title": "Project Title",
     "description": "Description 2",
     "tech-used": "Tech Used 2",
-    "image-url": "Image URL 2",
+    "image-url": "images/projects/1-stackemblocks.gif",
     "demo-link": "Demo Link 2",
     "code-link": "Code Link 2"
 }

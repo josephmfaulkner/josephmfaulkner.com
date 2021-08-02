@@ -9,7 +9,7 @@ import SocialMediaLinks from "./socialMediaILinks";
 const NavBar = (props) => {
 
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar className="top-navbar" bg="dark" variant="dark" sticky="top">
         <Container
 
         >
@@ -27,7 +27,7 @@ const NavBar = (props) => {
                 </Nav.Item>
             </Nav>
 
-            <SocialMediaLinks className="justify-content-end social-navbar-top" />
+            <SocialMediaLinks className="justify-content-end social-navbar-top d-none d-md-flex d-lg-flex d-xl-flex" />
         
         </Container>
         
