@@ -19,6 +19,12 @@ module.exports = {
         name: `site-data`,
         path: `${__dirname}/src/site-data/`,
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "josephmfaulkner.com",
+      },
+    },
   ],
 };

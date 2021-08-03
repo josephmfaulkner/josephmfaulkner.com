@@ -52,3 +52,12 @@
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+```
+
+cd infrastructure/heroku
+terraform init -var-file="secret.tfvars"
+terraform plan -var-file="secret.tfvars"
+terraform apply -var-file="secret.tfvars"
+
+```
