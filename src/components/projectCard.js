@@ -1,8 +1,5 @@
 import * as React from "react";
 import Nav from 'react-bootstrap/Nav';
-import { StaticImage } from "gatsby-plugin-image"
-
-import "./projectCard.css";
 
 const ProjectCard = (props) => {
   const projectData = props.projectData;
@@ -29,11 +26,11 @@ const ProjectCard = (props) => {
                 <p className="card-text">{projectData.description}</p>
                 <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group projectCardButtons">
-                  <Nav.Link href={projectData.demo_link} target="_blank"> 
-                    <button title="Demo" type="button" className="btn btn-md btn-outline-secondary"><i className="fas fa-laptop-code"></i></button>
+                  <Nav.Link title="Demo" className="btn btn-md btn-outline-secondary" href={projectData.demo_link} target="_blank"> 
+                    <i className="fas fa-laptop-code"></i>
                   </Nav.Link>
-                  <Nav.Link href={projectData.code_link} target="_blank">
-                    <button title="Source code" type="button" className="btn btn-md btn-outline-secondary"><i className="fab fa-git-alt"></i></button>
+                  <Nav.Link title="Source code" className="btn btn-md btn-outline-secondary" href={projectData.code_link} target="_blank">
+                    <i className="fab fa-git-alt"></i>
                   </Nav.Link>
                 </div>
                 <small className="text-muted">{projectData.tech_used}</small>
