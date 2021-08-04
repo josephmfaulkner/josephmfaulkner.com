@@ -28,6 +28,7 @@ const MainTemplate = (props) => {
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
         <NavBar />
+        <div className="navbar-offset"></div>
         {props.children}
         <Footer />
     </Container>

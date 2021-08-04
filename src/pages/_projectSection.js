@@ -27,7 +27,7 @@ const ProjectSection = () => {
   `);
 
   return (
-    <div id="projects">
+    <div id="projects" className="section">
 
       <Container className="home-page-content">
         <h1 className="display-4 fw-normal">Projects</h1>
