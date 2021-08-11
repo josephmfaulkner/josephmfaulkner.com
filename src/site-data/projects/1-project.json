@@ -1,9 +1,9 @@
 {
     "order-id": 1,
-    "title": "Project Title",
-    "description": "Description 1",
-    "tech-used": "Tech Used 1",
-    "image-url": "images/projects/1-stackemblocks.gif",
-    "demo-link": "Demo Link 1",
-    "code-link": "Code Link 1"
+    "title": "Solitaire 95",
+    "description": "An online game of Solitaire that uses sessions to manage and update the player's game state. A web game made in the 90s might have worked something like this.",
+    "tech-used": "Java, SpringBoot, PostgreSQL",
+    "image-url": "images/project.via.placeholder.com.png",
+    "demo-link": "",
+    "code-link": ""
 }

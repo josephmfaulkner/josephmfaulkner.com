@@ -1,0 +1,9 @@
+{
+    "order-id": 5,
+    "title": "Design Patterns Playground",
+    "description": "A catalog of design pattern implementations based on the book Design Patterns, Elements of Reusable Object-Oriented Software.",
+    "tech-used": "C#, .NET Core",
+    "image-url": "images/project.via.placeholder.com.png",
+    "demo-link": "",
+    "code-link": ""
+}
