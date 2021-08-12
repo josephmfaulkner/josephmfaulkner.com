@@ -11,10 +11,10 @@ const AboutSection = () => {
 
       <Container className="home-page-content">
         <Row className="justify-content-center">
-          <Col xs={{span: 12, order: 0}} md={{span: 6, order: 1}}  lg={{span: 4, order: 1}}  xl={{span: 3, order: 1}} >
+          <Col xs={{span: 6, order: 1}} md={{span: 6, order: 1}}  lg={{span: 4, order: 1}}  xl={{span: 3, order: 1}} >
               <img src="/images/profile-2.png" className="img-thumbnail z-depth-2" alt="Joseph Faulkner"/>
           </Col>  
-          <Col xs={{span: 12, order: 1}} md={{span: 6, order: 0}} lg={{span: 8, order: 0}} xl={{span: 9, order: 0}}>
+          <Col xs={{span: 12, order: 0}} md={{span: 6, order: 0}} lg={{span: 4, order: 0}} xl={{span: 4, order: 0}}>
               <h1 className="display-4 fw-normal">Howdy,</h1>
               <p>
               I have over five years of professional experience developing and maintaining software systems that store, retrieve and process business information. 
