@@ -23,12 +23,20 @@ const ProjectCard = (props) => {
             <div className="card-footer">
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group projectCardButtons">
-                    <Nav.Link title="Demo" className="btn btn-md btn-outline-secondary" href={projectData.demo_link} target="_blank"> 
-                      <i className="fas fa-laptop-code"></i>
-                    </Nav.Link>
-                    <Nav.Link title="Source code" className="btn btn-md btn-outline-secondary" href={projectData.code_link} target="_blank">
-                      <i className="fab fa-git-alt"></i>
-                    </Nav.Link>
+                    {
+                      projectData.demo_link &&
+                        <Nav.Link title="Demo" className="btn btn-md btn-outline-secondary" href={projectData.demo_link} target="_blank"> 
+                          <i className="fas fa-laptop-code"></i>
+                      </Nav.Link>
+                    }
+                    {
+                      projectData.code_link &&
+                      <Nav.Link title="Source code" className="btn btn-md btn-outline-secondary" href={projectData.code_link} target="_blank">
+                        <i className="fab fa-git-alt"></i>
+                      </Nav.Link>
+                    }
+                    
+                    
                   </div>
                   <small className="text-muted text-right" style={{'textAlign' : 'right'}}>{projectData.tech_used}</small>
                 </div>
