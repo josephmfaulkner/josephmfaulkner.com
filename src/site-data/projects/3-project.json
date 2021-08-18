@@ -3,7 +3,7 @@
     "title": "Fullstack Boilerplate",
     "description": "If someone has an idea for a new CRUD application, this project can help them get up and running to implement their idea as quickly as possible. The solution includes CRUD operations, database migrations, file uploads, user authentication and continuous delivery.",
     "tech-used": "React.js, Node.js, GraphQL, TypeScript, PostgreSQL",
-    "image-url": "images/project.via.placeholder.com.png",
+    "image-url": "images/projects/fullstack-template.jpg",
     "demo-link": "",
     "code-link": "https://github.com/josephmfaulkner/expressjs-backend-boilerplate"
 }

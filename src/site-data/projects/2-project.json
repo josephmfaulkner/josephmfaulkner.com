@@ -1,9 +1,9 @@
 {
     "order-id": 2,
     "title": "StackEmBlocks",
-    "description": "A Tetris clone that runs in a web browser. The game can be played in single-player or multiplayer mode over the internet.",
+    "description": "A Tetris clone that runs in a web browser. The game can be played in single-player or multiplayer mode over the internet. It also works on your phone. 📱",
     "tech-used": "Javascript, React, AWS, Serverless",
-    "image-url": "images/projects/1-stackemblocks.gif",
+    "image-url": "images/projects/stackemblocks.gif",
     "demo-link": "https://stackemblocks.games.josephmfaulkner.com",
     "code-link": "https://github.com/josephmfaulkner/stack-em-blocks"
 }

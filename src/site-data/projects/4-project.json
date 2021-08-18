@@ -3,7 +3,7 @@
     "title": "Cracking The Coding Interview",
     "description": "A collection of my solutions to the coding problems from Cracking the Coding Interview by Gayle Laakmann McDowell. The project includes unit tests to verify the algorithms.",
     "tech-used": "Java, JUnit, Maven",
-    "image-url": "images/project.via.placeholder.com.png",
+    "image-url": "images/projects/cracking-the-coding-interview.jpg",
     "demo-link": "",
     "code-link": "https://github.com/josephmfaulkner/cracking-the-coding-interview"
 }

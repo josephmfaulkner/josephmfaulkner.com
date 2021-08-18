@@ -3,7 +3,7 @@
     "title": "Design Patterns Playground",
     "description": "A catalog of design pattern implementations based on the book Design Patterns, Elements of Reusable Object-Oriented Software.",
     "tech-used": "C#, .NET Core",
-    "image-url": "images/project.via.placeholder.com.png",
+    "image-url": "images/projects/design-patterns.jpg",
     "demo-link": "",
     "code-link": "https://github.com/josephmfaulkner/Design-Patterns-Playground"
 }

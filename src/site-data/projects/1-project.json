@@ -3,7 +3,7 @@
     "title": "Solitaire 95",
     "description": "An online game of Solitaire that uses sessions to manage and update the player's game state. A web game made in the 90s might have worked something like this.",
     "tech-used": "Java, SpringBoot, PostgreSQL",
-    "image-url": "images/project.via.placeholder.com.png",
+    "image-url": "images/projects/solitare.jpg",
     "demo-link": "",
     "code-link": "https://github.com/josephmfaulkner/Solitare95"
 }
