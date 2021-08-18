@@ -8,7 +8,7 @@ import SocialMediaLinks from "./socialMediaLinks";
 // markup
 const Footer = (props) => {
   return (
-    <Navbar bg="dark" variant="dark" >
+    <Navbar bg="dark" variant="dark" id="links">
         <Container className="justify-content-center" >
 
             <SocialMediaLinks className="social-navbar-bottom" />

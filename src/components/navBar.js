@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import SocialMediaLinks from "./socialMediaLinks";
+import SocialMediaLinksMobileButton from "./socialMediaLinksMobileButton";
 
 // markup
 const NavBar = (props) => {
@@ -13,6 +14,8 @@ const NavBar = (props) => {
         <Container
 
         >
+            
+            
             <Nav
 
             >
@@ -25,10 +28,12 @@ const NavBar = (props) => {
                 <Nav.Item>
                     <Nav.Link href="/JosephFaulkner-Resume-2021.pdf" target="_blank">Resume</Nav.Link>
                 </Nav.Item>
+                
             </Nav>
 
+            <SocialMediaLinksMobileButton />
             <SocialMediaLinks className="justify-content-end social-navbar-top d-none d-md-flex d-lg-flex d-xl-flex" />
-        
+            
         </Container>
         
 

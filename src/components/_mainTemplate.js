@@ -26,11 +26,12 @@ const MainTemplate = (props) => {
           <meta charSet="utf-8" />
           <title>{data.site.siteMetadata.title}</title>
           <link rel="canonical" href="http://mysite.com/example" />
+          <link rel="icon" type="image/png" href="/favicon.png"/>
         </Helmet>
         <NavBar />
         <div className="navbar-offset"></div>
         {props.children}
-        <Footer />
+        <Footer id="links"/>
     </Container>
   )
 };
